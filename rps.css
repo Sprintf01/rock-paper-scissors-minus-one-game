@@ -1,0 +1,94 @@
+@font-face {
+    font-family: gameofsquid;
+    src: url(GameOfSquids.otf);
+}
+.minus1{
+    color:rgb(202, 40, 40);
+}
+body {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 10px;
+    margin-left:40px;
+
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: gameofsquid ;
+    margin-left: 250px;
+    margin-top:1px;
+    margin-bottom:4px;
+}
+.youside {
+    position: absolute;
+    margin-top:1px;
+    margin-left:60px;
+}
+.compside {
+    position: relative;
+    left: 50%;
+    width:400px;
+    margin-left:60px;
+}
+.resultside {
+    position:absolute;
+    top: 80%;
+    left: 40%;
+    align-items: center;
+    border: 2px;
+    padding: 4px;
+    border-color: aquamarine;
+}
+.move-icon {
+    height: 40px;
+}
+
+.move-button {
+    background-color: transparent;
+    border: 3px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.move-button:active {
+    background-color: gray;
+
+}
+
+.result {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.score {
+    margin-top: 30px;
+}
+
+.reset-score-button {
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.choices{
+    background: transparent;
+    height:70px;
+    width:70px;
+    
+}
+
+.timer{
+    margin-left:450px;
+    margin-top:30px;
+    
+}
+
