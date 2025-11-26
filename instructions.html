@@ -28,49 +28,23 @@
   <div class="container" role="main">
     <h1>Rock • Paper • Scissors <span class="subtitle">Minus One — How to play</span></h1>
 
-    <p><strong>Summary:</strong> This is a two-hand variant of rock–paper–scissors. You choose <em>two</em> hands (Hand 1 and Hand 2). The computer secretly chooses two hands as well. After both sides pick, you must remove one hand (shout “minus one”) — the remaining single hand from each side is compared to decide the round.</p>
+    <p>This is a two-hand variant of rock–paper–scissors. You select two hands (Hand 1 and Hand 2), and the computer secretly selects two hands as well. After both sides have picked, you must choose which of your two hands to keep. The remaining hand from each side is compared to determine the round winner.</p>
 
-    <h2>Step-by-step (quick)</h2>
+    <h2>Steps:</h2>
     <ol>
       <li>On the left, pick your <strong>Hand 1</strong> and <strong>Hand 2</strong> (each can be rock, paper, or scissors).</li>
       <li>Click <strong>Show hands</strong>. The computer’s two hands are revealed and your two hands are shown as buttons.</li>
       <li>Choose which of your two hands to keep by clicking the corresponding hand button (you have ~4.56 seconds).</li>
-      <li>After you pick, the remaining computer hand is chosen (the site randomly picks one of the computer's two hands) and winner/tie is displayed.</li>
+      <li>The computer then selects one of its two hands, using a simple predictive AI. The final hands are compared, and the result is displayed as Win, Loss, or Tie.</li>
       <li>Score updates (Wins / Losses / Ties). Use <strong>Reset Score</strong> to clear.</li>
     </ol>
-
-    <h2>Detailed rules</h2>
-    <ul>
-      <li>Rock beats Scissors; Paper beats Rock; Scissors beats Paper.</li>
-      <li>If both final hands are the same, the round is a tie.</li>
-      <li>If you fail to choose which hand to keep before the timer ends, you are disqualified for that round and the computer gains a win.</li>
-      <li>If you don't click both Hand 1 and Hand 2 before pressing <em>Show hands</em>, an alert will prompt you to choose both hands.</li>
-    </ul>
-
-    <h2>Examples</h2>
-    <div class="example">
-      <strong>Example 1</strong>: You pick <em>rock</em> and <em>paper</em>. Computer reveals <em>scissors</em> and <em>paper</em>.
-      <ul>
-        <li>If you keep <em>rock</em> → computer's selected final hand may be <em>scissors</em> or <em>paper</em>; rock loses to paper, beats scissors — result depends.</li>
-        <li>If you keep <em>paper</em> → paper ties with paper or beats rock; in this example, if computer final is paper → tie, if scissors → you lose.</li>
-      </ul>
-    </div>
 
     <h2>Controls & UI notes</h2>
     <ul>
       <li><strong>Show hands</strong> — reveal both player's and computer's two hands and starts the 4.56s timer for you to pick.</li>
       <li>Click one of your two revealed hand buttons to keep it. That triggers the round resolution.</li>
       <li><strong>Reset Score</strong> — clears local storage and resets displayed wins/losses/ties.</li>
-      <li>The computer chooses its final hand randomly between its two choices (50/50).</li>
     </ul>
-
-    <h2>FAQ</h2>
-    <dl>
-      <dt>Q: What happens if I click only one hand then Show hands?</dt>
-      <dd>A: The game alerts you to select both hands before proceeding.</dd>
-      <dt>Q: Where is the rule “minus one” enforced?</dt>
-      <dd>A: After Show hands, you must click which of your two hands you keep (effectively "minus one"). If you don't, the timer code penalizes you.</dd>
-    </dl>
 
     <div class="btns">
       <a href="index.html"><button class="primary" aria-label="Back to game">Back to game</button></a>

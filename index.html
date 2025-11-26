@@ -9,7 +9,18 @@
     <p class="title">Rock Paper Scissors <span style="color:#ed1b76">Minus One</span></p>
     <!-- somewhere near the top or header -->
     <a href="instructions.html" style="position:absolute; left: 10px; top: 6px; text-decoration:none;">
-      <button class="reset-score-button" aria-label="Open instructions">Instructions</button>
+      <button aria-label="Open instructions" style="
+    background-color: transparent;   /* make background transparent */
+    color: white;                    /* text color */
+    font-family: gameofsquid, Arial, sans-serif; /* font style */
+    font-size: 14px;                 /* font size */
+    border: 2px solid white;         /* optional border */
+    border-radius: 8px;              /* rounded corners */
+    padding: 8px 15px;               /* padding */
+    cursor: pointer;                 /* cursor pointer on hover */
+">
+        
+        Instructions</button>
     </a>
 
 
@@ -58,7 +69,7 @@
       <button style="margin-left: 45px;" onclick="resetScore()" class="reset-score-button">Reset Score</button>
     </div>
 </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.11.0/dist/tf.min.js"></script>
     <script src="rps.js"></script>
   </body>
 </html>
