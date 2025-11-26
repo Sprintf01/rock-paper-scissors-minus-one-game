@@ -34,5 +34,3 @@ This game uses a twist:
 
 An attempt to make a simple classic game feel new again :) 
 
-
-https://sprintf01.github.io/rock-paper-scissors-minus-one-game/index.html
