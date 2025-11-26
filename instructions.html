@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>How to play — Rock Paper Scissors Minus One</title>
-    <link rel="stylesheet" href="rps.css"> <!-- reuse existing site CSS -->
-    <style>
-
-        body { background: #191919; color: #fff; font-family: Arial, Helvetica, sans-serif; padding: 24px; }
-        .container { max-width: 900px; margin: 0 auto; padding: 24px; background: rgba(255,255,255,0.02); border-radius: 10px; }
-        h1 { font-size: 28px; margin-bottom: 6px; }
-        .subtitle { color:#ed1b76; font-weight:700; margin-bottom: 18px; display:block; }
-        h2 { margin-top:18px; font-size:20px; }
-        p { line-height:1.5; }
-        ul { margin-left: 18px; }
-        .example { background: rgba(0,0,0,0.25); padding:10px; border-radius:6px; margin:10px 0; }
-        .btns { margin-top: 18px; display:flex; gap:10px; flex-wrap:wrap; }
-        .primary, .secondary { padding:10px 14px; border-radius:8px; border:none; cursor:pointer; font-weight:600; }
-        .primary { background: #ed1b76; color: white; }
-        .secondary { background: #fff; color: black; }
-        footer { margin-top: 28px; font-size: 13px; color: #aaa; }
-        .keyboard { font-family: monospace; background: rgba(255,255,255,0.03); padding: 4px 8px; border-radius:4px; }
-        @media (max-width:600px) { .container { padding: 16px; } h1{ font-size:22px;} }
-    </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>How to play — Rock Paper Scissors Minus One</title>
+  <link rel="stylesheet" href="rps.css"> <!-- reuse existing site CSS -->
+  <style>
+    /* Add small instruction-specific styles so this file is self-contained */
+    body { background: #191919; color: #fff; font-family: Arial, Helvetica, sans-serif; padding: 24px; }
+    .container { max-width: 900px; margin: 0 auto; padding: 24px; background: rgba(255,255,255,0.02); border-radius: 10px; }
+    h1 { font-size: 28px; margin-bottom: 6px; }
+    .subtitle { color:#ed1b76; font-weight:700; margin-bottom: 18px; display:block; }
+    h2 { margin-top:18px; font-size:20px; }
+    p { line-height:1.5; }
+    ul { margin-left: 18px; }
+    .example { background: rgba(0,0,0,0.25); padding:10px; border-radius:6px; margin:10px 0; }
+    .btns { margin-top: 18px; display:flex; gap:10px; flex-wrap:wrap; }
+    .primary, .secondary { padding:10px 14px; border-radius:8px; border:none; cursor:pointer; font-weight:600; }
+    .primary { background: #ed1b76; color: white; }
+    .secondary { background: #fff; color: black; }
+    footer { margin-top: 28px; font-size: 13px; color: #aaa; }
+    .keyboard { font-family: monospace; background: rgba(255,255,255,0.03); padding: 4px 8px; border-radius:4px; }
+    @media (max-width:600px) { .container { padding: 16px; } h1{ font-size:22px;} }
+  </style>
 </head>
 <body>
-    <div class="container" role="main">
-        <h1>Rock • Paper • Scissors <span class="subtitle">Minus One — How to play</span></h1>
+  <div class="container" role="main">
+    <h1>Rock • Paper • Scissors <span class="subtitle">Minus One — How to play</span></h1>
 
-        <p><strong>Summary:</strong> This is a two-hand variant of rock–paper–scissors. You choose <em>two</em> hands (Hand 1 and Hand 2). The computer secretly chooses two hands as well. After both sides pick, you must remove one hand (shout “minus one”) — the remaining single hand from each side is compared to decide the round.</p>
+    <p><strong>Summary:</strong> This is a two-hand variant of rock–paper–scissors. You choose <em>two</em> hands (Hand 1 and Hand 2). The computer secretly chooses two hands as well. After both sides pick, you must remove one hand (shout “minus one”) — the remaining single hand from each side is compared to decide the round.</p>
 
-        <h2>Step-by-step (quick)</h2>
-        <ol>
+    <h2>Step-by-step (quick)</h2>
+    <ol>
       <li>On the left, pick your <strong>Hand 1</strong> and <strong>Hand 2</strong> (each can be rock, paper, or scissors).</li>
       <li>Click <strong>Show hands</strong>. The computer’s two hands are revealed and your two hands are shown as buttons.</li>
       <li>Choose which of your two hands to keep by clicking the corresponding hand button (you have ~4.56 seconds).</li>
@@ -73,8 +73,7 @@
     </dl>
 
     <div class="btns">
-      <a href="https://sprintf01.github.io/rock-paper-scissors-minus-one-game/">Back to Game</a>
-><button class="primary" aria-label="Back to game">Back to game</button></a>
+      <a href="index.html"><button class="primary" aria-label="Back to game">Back to game</button></a>
       <button class="secondary" onclick="window.print()" aria-label="Print instructions">Print</button>
     </div>
 
@@ -84,5 +83,3 @@
   </div>
 </body>
 </html>
-//comment
-

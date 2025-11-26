@@ -7,6 +7,11 @@
   </head>
   <body>
     <p class="title">Rock Paper Scissors <span style="color:#ed1b76">Minus One</span></p>
+    <!-- somewhere near the top or header -->
+    <a href="instructions.html" style="position:absolute; left: 10px; top: 6px; text-decoration:none;">
+      <button class="reset-score-button" aria-label="Open instructions">Instructions</button>
+    </a>
+
 
     <div class="youside">
       <p style="margin-left: 160px; font-size: 30px; margin-top: 6px;">You</p>
@@ -52,6 +57,7 @@
       <p class="js-score score"></p>
       <button style="margin-left: 45px;" onclick="resetScore()" class="reset-score-button">Reset Score</button>
     </div>
+</div>
 
     <script src="rps.js"></script>
   </body>
