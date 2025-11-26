@@ -1,4 +1,4 @@
-<h2> <b> Machine-Learning Enhanced Rock–Paper–Scissors Game </b> </h2>
+<h2> <b> Machine Learning Enhanced Rock–Paper–Scissors Game </b> </h2>
 <p>A browser-based Rock–Paper–Scissors game powered by a Recurrent Neural Network (RNN) that predicts player behavior based on move patterns.</p>
 <b>Machine Learning:</b><br>
 Integrates a lightweight ML model, a Recurrent Neural Network (RNN) built from scratch in JavaScript, allowing the computer to learn from the player's previous moves and predict the player's next move which the computer counters accordingly.<br>
